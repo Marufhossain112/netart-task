@@ -1,0 +1,24 @@
+.motor-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.motor-pic img {
+  width: 75%;
+}
+.motors h5 {
+  text-align: center;
+}
+.hr-style {
+  /* color: red; */
+  color: rgb(236, 50, 55);
+  width: 96%;
+}
+.span {
+  color: rgb(236, 50, 55);
+}
+.products {
+  text-align: center;
+  padding: 0 33px;
+}

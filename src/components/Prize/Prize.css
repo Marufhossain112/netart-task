@@ -1,0 +1,23 @@
+.awards {
+  display: flex;
+  align-items: center;
+}
+.left-side-awards {
+  flex: 0 0 30%;
+  flex-grow: 1;
+}
+.left-side-awards img {
+  width: 80%;
+}
+.right-side-awards {
+  /* width: 55%; */
+  flex: 0 0 60%;
+}
+.right-side-awards img {
+  width: 100%;
+}
+.install {
+  margin-top: 2em;
+  font-size: 0.9em;
+  margin-left: 3em;
+}

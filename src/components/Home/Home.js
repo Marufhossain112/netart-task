@@ -1,11 +1,14 @@
 import React from "react";
 import Header from "../Header/Header";
+import Motors from "../Motors/Motors";
+import Prize from "../Prize/Prize";
 
 const Home = () => {
   return (
     <div>
-      <h2>I am groot.</h2>
       <Header></Header>
+      <Prize></Prize>
+      <Motors></Motors>
     </div>
   );
 };
