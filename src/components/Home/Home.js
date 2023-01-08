@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Motors from "../Motors/Motors";
 import Prize from "../Prize/Prize";
@@ -9,6 +10,7 @@ const Home = () => {
       <Header></Header>
       <Prize></Prize>
       <Motors></Motors>
+      <Footer></Footer>
     </div>
   );
 };
