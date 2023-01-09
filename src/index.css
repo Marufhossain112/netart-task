@@ -18,3 +18,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .national-award ul li {
+    font-size: 12px;
+  }
+  .national-award p {
+    font-size: 12px;
+  }
+  .install,
+  .motor-pic p,
+  .products,
+  .footer-text p {
+    font-size: 0.5em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .national-award ul li {
+    font-size: 14px;
+  }
+  .national-award p {
+    font-size: 14px;
+  }
+  .install {
+    font-size: 0.7em;
+  }
+
+  .motor-pic p,
+  .products,
+  .footer-text p {
+    font-size: 0.8em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

@@ -12,11 +12,11 @@ const Footer = () => {
           src={phone}
           alt="web"
         ></img>{" "}
-        Toll free 1800 200 1234
+        <p>Toll free 1800 200 1234</p>
       </div>
       <div className="footer-text">
         <img style={{ height: "32px", width: "32px" }} src={fb} alt="web"></img>{" "}
-        www.facebook.com/cripumps
+        <p>www.facebook.com/cripumps</p>
       </div>
       <div className="footer-text">
         <img
@@ -24,7 +24,7 @@ const Footer = () => {
           src={web}
           alt="web"
         ></img>{" "}
-        www.crigroups.com
+        <p>www.crigroups.com</p>
       </div>
       <div></div>
     </div>
