@@ -11,6 +11,15 @@
   color: white;
   display: flex;
 }
+.footer-text p{
+  margin-left: 5px;
+}
+.icon {
+  background: white;
+  color: rgb(236, 50, 55);
+  padding: 8px;
+  border-radius: 26px;
+}
 @media screen and (max-width: 420px) {
   .footer {
     display: flex;

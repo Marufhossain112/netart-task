@@ -3,27 +3,23 @@ import "./Footer.css";
 import web from "../../images/web.png";
 import fb from "../../images/facebook-circular-logo.png";
 import phone from "../../images/phone-call.png";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { SlGlobe } from "react-icons/sl";
+
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-text">
-        <img
-          style={{ height: "32px", width: "32px" }}
-          src={phone}
-          alt="web"
-        ></img>{" "}
+        <FaPhoneAlt className="icon"></FaPhoneAlt>
         <p>Toll free 1800 200 1234</p>
       </div>
       <div className="footer-text">
-        <img style={{ height: "32px", width: "32px" }} src={fb} alt="web"></img>{" "}
+        <FaFacebookF className="icon"></FaFacebookF>
         <p>www.facebook.com/cripumps</p>
       </div>
       <div className="footer-text">
-        <img
-          style={{ height: "32px", width: "32px" }}
-          src={web}
-          alt="web"
-        ></img>{" "}
+        <SlGlobe style={{ fontSize: "26px" }}></SlGlobe>
         <p>www.crigroups.com</p>
       </div>
       <div></div>
